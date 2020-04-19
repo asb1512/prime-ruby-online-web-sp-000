@@ -5,10 +5,11 @@ def prime?(num)
     return false
   elsif num == 0 || num == 1
     return false
-  elsif num.negative? == false
+  elsif
     (2..(num - 1)).each do |n|
       return false if num % n == 0
     end
+  else
+    true
   end
-  true
 end
