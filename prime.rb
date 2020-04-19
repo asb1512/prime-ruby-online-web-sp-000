@@ -12,4 +12,5 @@ def prime?(num)
   else
     true
   end
+  true
 end
